@@ -47,6 +47,8 @@
     //pvc.delegate = viewController
     pvc.delegate = self;
     [self presentViewController:pvc animated:YES completion:nil];
+    
+    NSLog(@"修改过了");
 }
 
 
