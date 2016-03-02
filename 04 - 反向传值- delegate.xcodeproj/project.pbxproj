@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C888C6BB1C3279FD001DD0EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C888C6BA1C3279FD001DD0EA /* main.m */; };
+		C888C6BE1C3279FD001DD0EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C888C6BD1C3279FD001DD0EA /* AppDelegate.m */; };
+		C888C6C11C3279FD001DD0EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C888C6C01C3279FD001DD0EA /* ViewController.m */; };
+		C888C6C41C3279FD001DD0EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C888C6C21C3279FD001DD0EA /* Main.storyboard */; };
+		C888C6C61C3279FD001DD0EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C888C6C51C3279FD001DD0EA /* Assets.xcassets */; };
+		C888C6C91C3279FD001DD0EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C888C6C71C3279FD001DD0EA /* LaunchScreen.storyboard */; };
+		C888C6D41C3279FE001DD0EA /* _4_________delegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C888C6D31C3279FE001DD0EA /* _4_________delegateTests.m */; };
+		C888C6DF1C3279FE001DD0EA /* _4_________delegateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C888C6DE1C3279FE001DD0EA /* _4_________delegateUITests.m */; };
+		C888C6EE1C327BB8001DD0EA /* PurpleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C888C6ED1C327BB8001DD0EA /* PurpleViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C888C6D01C3279FE001DD0EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C888C6AE1C3279FD001DD0EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C888C6B51C3279FD001DD0EA;
+			remoteInfo = "04 - 反向传值- delegate";
+		};
+		C888C6DB1C3279FE001DD0EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C888C6AE1C3279FD001DD0EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C888C6B51C3279FD001DD0EA;
+			remoteInfo = "04 - 反向传值- delegate";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C888C6B61C3279FD001DD0EA /* 04 - 反向传值- delegate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "04 - 反向传值- delegate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C888C6BA1C3279FD001DD0EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C888C6BC1C3279FD001DD0EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C888C6BD1C3279FD001DD0EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C888C6BF1C3279FD001DD0EA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C888C6C01C3279FD001DD0EA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C888C6C31C3279FD001DD0EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C888C6C51C3279FD001DD0EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C888C6C81C3279FD001DD0EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C888C6CA1C3279FD001DD0EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C888C6CF1C3279FE001DD0EA /* 04 - 反向传值- delegateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "04 - 反向传值- delegateTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C888C6D31C3279FE001DD0EA /* _4_________delegateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_4_________delegateTests.m"; sourceTree = "<group>"; };
+		C888C6D51C3279FE001DD0EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C888C6DA1C3279FE001DD0EA /* 04 - 反向传值- delegateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "04 - 反向传值- delegateUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C888C6DE1C3279FE001DD0EA /* _4_________delegateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_4_________delegateUITests.m"; sourceTree = "<group>"; };
+		C888C6E01C3279FE001DD0EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C888C6EC1C327BB8001DD0EA /* PurpleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurpleViewController.h; sourceTree = "<group>"; };
+		C888C6ED1C327BB8001DD0EA /* PurpleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurpleViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C888C6B31C3279FD001DD0EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C888C6CC1C3279FE001DD0EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C888C6D71C3279FE001DD0EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C888C6AD1C3279FD001DD0EA = {
+			isa = PBXGroup;
+			children = (
+				C888C6B81C3279FD001DD0EA /* 04 - 反向传值- delegate */,
+				C888C6D21C3279FE001DD0EA /* 04 - 反向传值- delegateTests */,
+				C888C6DD1C3279FE001DD0EA /* 04 - 反向传值- delegateUITests */,
+				C888C6B71C3279FD001DD0EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C888C6B71C3279FD001DD0EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C888C6B61C3279FD001DD0EA /* 04 - 反向传值- delegate.app */,
+				C888C6CF1C3279FE001DD0EA /* 04 - 反向传值- delegateTests.xctest */,
+				C888C6DA1C3279FE001DD0EA /* 04 - 反向传值- delegateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C888C6B81C3279FD001DD0EA /* 04 - 反向传值- delegate */ = {
+			isa = PBXGroup;
+			children = (
+				C888C6BC1C3279FD001DD0EA /* AppDelegate.h */,
+				C888C6BD1C3279FD001DD0EA /* AppDelegate.m */,
+				C888C6BF1C3279FD001DD0EA /* ViewController.h */,
+				C888C6C01C3279FD001DD0EA /* ViewController.m */,
+				C888C6EC1C327BB8001DD0EA /* PurpleViewController.h */,
+				C888C6ED1C327BB8001DD0EA /* PurpleViewController.m */,
+				C888C6C21C3279FD001DD0EA /* Main.storyboard */,
+				C888C6C51C3279FD001DD0EA /* Assets.xcassets */,
+				C888C6C71C3279FD001DD0EA /* LaunchScreen.storyboard */,
+				C888C6CA1C3279FD001DD0EA /* Info.plist */,
+				C888C6B91C3279FD001DD0EA /* Supporting Files */,
+			);
+			path = "04 - 反向传值- delegate";
+			sourceTree = "<group>";
+		};
+		C888C6B91C3279FD001DD0EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C888C6BA1C3279FD001DD0EA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C888C6D21C3279FE001DD0EA /* 04 - 反向传值- delegateTests */ = {
+			isa = PBXGroup;
+			children = (
+				C888C6D31C3279FE001DD0EA /* _4_________delegateTests.m */,
+				C888C6D51C3279FE001DD0EA /* Info.plist */,
+			);
+			path = "04 - 反向传值- delegateTests";
+			sourceTree = "<group>";
+		};
+		C888C6DD1C3279FE001DD0EA /* 04 - 反向传值- delegateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C888C6DE1C3279FE001DD0EA /* _4_________delegateUITests.m */,
+				C888C6E01C3279FE001DD0EA /* Info.plist */,
+			);
+			path = "04 - 反向传值- delegateUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C888C6B51C3279FD001DD0EA /* 04 - 反向传值- delegate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C888C6E31C3279FE001DD0EA /* Build configuration list for PBXNativeTarget "04 - 反向传值- delegate" */;
+			buildPhases = (
+				C888C6B21C3279FD001DD0EA /* Sources */,
+				C888C6B31C3279FD001DD0EA /* Frameworks */,
+				C888C6B41C3279FD001DD0EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "04 - 反向传值- delegate";
+			productName = "04 - 反向传值- delegate";
+			productReference = C888C6B61C3279FD001DD0EA /* 04 - 反向传值- delegate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C888C6CE1C3279FE001DD0EA /* 04 - 反向传值- delegateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C888C6E61C3279FE001DD0EA /* Build configuration list for PBXNativeTarget "04 - 反向传值- delegateTests" */;
+			buildPhases = (
+				C888C6CB1C3279FE001DD0EA /* Sources */,
+				C888C6CC1C3279FE001DD0EA /* Frameworks */,
+				C888C6CD1C3279FE001DD0EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C888C6D11C3279FE001DD0EA /* PBXTargetDependency */,
+			);
+			name = "04 - 反向传值- delegateTests";
+			productName = "04 - 反向传值- delegateTests";
+			productReference = C888C6CF1C3279FE001DD0EA /* 04 - 反向传值- delegateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C888C6D91C3279FE001DD0EA /* 04 - 反向传值- delegateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C888C6E91C3279FE001DD0EA /* Build configuration list for PBXNativeTarget "04 - 反向传值- delegateUITests" */;
+			buildPhases = (
+				C888C6D61C3279FE001DD0EA /* Sources */,
+				C888C6D71C3279FE001DD0EA /* Frameworks */,
+				C888C6D81C3279FE001DD0EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C888C6DC1C3279FE001DD0EA /* PBXTargetDependency */,
+			);
+			name = "04 - 反向传值- delegateUITests";
+			productName = "04 - 反向传值- delegateUITests";
+			productReference = C888C6DA1C3279FE001DD0EA /* 04 - 反向传值- delegateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C888C6AE1C3279FD001DD0EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = GYK;
+				TargetAttributes = {
+					C888C6B51C3279FD001DD0EA = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					C888C6CE1C3279FE001DD0EA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C888C6B51C3279FD001DD0EA;
+					};
+					C888C6D91C3279FE001DD0EA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C888C6B51C3279FD001DD0EA;
+					};
+				};
+			};
+			buildConfigurationList = C888C6B11C3279FD001DD0EA /* Build configuration list for PBXProject "04 - 反向传值- delegate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C888C6AD1C3279FD001DD0EA;
+			productRefGroup = C888C6B71C3279FD001DD0EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C888C6B51C3279FD001DD0EA /* 04 - 反向传值- delegate */,
+				C888C6CE1C3279FE001DD0EA /* 04 - 反向传值- delegateTests */,
+				C888C6D91C3279FE001DD0EA /* 04 - 反向传值- delegateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C888C6B41C3279FD001DD0EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C888C6C91C3279FD001DD0EA /* LaunchScreen.storyboard in Resources */,
+				C888C6C61C3279FD001DD0EA /* Assets.xcassets in Resources */,
+				C888C6C41C3279FD001DD0EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C888C6CD1C3279FE001DD0EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C888C6D81C3279FE001DD0EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C888C6B21C3279FD001DD0EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C888C6EE1C327BB8001DD0EA /* PurpleViewController.m in Sources */,
+				C888C6C11C3279FD001DD0EA /* ViewController.m in Sources */,
+				C888C6BE1C3279FD001DD0EA /* AppDelegate.m in Sources */,
+				C888C6BB1C3279FD001DD0EA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C888C6CB1C3279FE001DD0EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C888C6D41C3279FE001DD0EA /* _4_________delegateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C888C6D61C3279FE001DD0EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C888C6DF1C3279FE001DD0EA /* _4_________delegateUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C888C6D11C3279FE001DD0EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C888C6B51C3279FD001DD0EA /* 04 - 反向传值- delegate */;
+			targetProxy = C888C6D01C3279FE001DD0EA /* PBXContainerItemProxy */;
+		};
+		C888C6DC1C3279FE001DD0EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C888C6B51C3279FD001DD0EA /* 04 - 反向传值- delegate */;
+			targetProxy = C888C6DB1C3279FE001DD0EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C888C6C21C3279FD001DD0EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C888C6C31C3279FD001DD0EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C888C6C71C3279FD001DD0EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C888C6C81C3279FD001DD0EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C888C6E11C3279FE001DD0EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C888C6E21C3279FE001DD0EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C888C6E41C3279FE001DD0EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "04 - 反向传值- delegate/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gouyuankai.-4---------delegate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C888C6E51C3279FE001DD0EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "04 - 反向传值- delegate/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gouyuankai.-4---------delegate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C888C6E71C3279FE001DD0EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "04 - 反向传值- delegateTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gouyuankai.-4---------delegateTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/04 - 反向传值- delegate.app/04 - 反向传值- delegate";
+			};
+			name = Debug;
+		};
+		C888C6E81C3279FE001DD0EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "04 - 反向传值- delegateTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gouyuankai.-4---------delegateTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/04 - 反向传值- delegate.app/04 - 反向传值- delegate";
+			};
+			name = Release;
+		};
+		C888C6EA1C3279FE001DD0EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "04 - 反向传值- delegateUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gouyuankai.-4---------delegateUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "04 - 反向传值- delegate";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C888C6EB1C3279FE001DD0EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "04 - 反向传值- delegateUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gouyuankai.-4---------delegateUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "04 - 反向传值- delegate";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C888C6B11C3279FD001DD0EA /* Build configuration list for PBXProject "04 - 反向传值- delegate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C888C6E11C3279FE001DD0EA /* Debug */,
+				C888C6E21C3279FE001DD0EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C888C6E31C3279FE001DD0EA /* Build configuration list for PBXNativeTarget "04 - 反向传值- delegate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C888C6E41C3279FE001DD0EA /* Debug */,
+				C888C6E51C3279FE001DD0EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C888C6E61C3279FE001DD0EA /* Build configuration list for PBXNativeTarget "04 - 反向传值- delegateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C888C6E71C3279FE001DD0EA /* Debug */,
+				C888C6E81C3279FE001DD0EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C888C6E91C3279FE001DD0EA /* Build configuration list for PBXNativeTarget "04 - 反向传值- delegateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C888C6EA1C3279FE001DD0EA /* Debug */,
+				C888C6EB1C3279FE001DD0EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C888C6AE1C3279FD001DD0EA /* Project object */;
+}
